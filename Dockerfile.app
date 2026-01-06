@@ -27,7 +27,7 @@ RUN npm run build
 # =============================================================================
 # Stage 2: Build the final image with Python backend + static frontend
 # =============================================================================
-FROM python:3.10-slim-bullseye
+FROM python:3.12-slim-bookworm
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
