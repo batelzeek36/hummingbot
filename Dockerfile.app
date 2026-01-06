@@ -48,7 +48,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /hummingbot
 
 # Copy requirements first for better caching
-COPY setup.py setup.cfg pyproject.toml ./
+COPY setup.py pyproject.toml ./
 COPY hummingbot/ ./hummingbot/
 COPY bin/ ./bin/
 COPY scripts/ ./scripts/
