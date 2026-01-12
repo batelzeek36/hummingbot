@@ -129,7 +129,7 @@ class FundingHunterStrategy:
         # Log scan results
         if not self.opportunities:
             self.logger.info(f"FUNDING SCAN: No opportunities found from {len(self.config.funding_scan_pairs.split(','))} pairs")
-        elif self.opportunities:
+        else:
             top3 = self.opportunities[:3]
             self.logger.info("TOP FUNDING OPPORTUNITIES:")
             for opp in top3:
