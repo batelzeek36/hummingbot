@@ -24,10 +24,11 @@ services:
     tty: true
     stdin_open: true
     network_mode: host
-  #  environment:
-  #    - CONFIG_PASSWORD=admin
-  #    - CONFIG_FILE_NAME=v2_with_controllers.py
-  #    - SCRIPT_CONFIG=conf_v2_with_controllers.yml
+    # Auto-start (enable after initial setup):
+    # environment:
+    #   - CONFIG_PASSWORD=a
+    #   - CONFIG_FILE_NAME=dollar_a_day_pmm.py
+    #   - SCRIPT_CONFIG=conf_dollar_a_day_pmm.yml
 
   # gateway:
   #  restart: always
