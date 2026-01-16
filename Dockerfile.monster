@@ -1,0 +1,10 @@
+# Custom Hummingbot image with Monster Bot dependencies
+FROM hummingbot/hummingbot:latest
+
+# Install XGBoost without NVIDIA GPU dependencies (saves ~300MB)
+# Install PySocks and aiohttp-socks for SOCKS5 proxy support (Toronto VPS)
+RUN /opt/conda/envs/hummingbot/bin/pip install --no-cache-dir \
+    xgboost \
+    PySocks \
+    aiohttp-socks \
+    && /opt/conda/envs/hummingbot/bin/pip uninstall -y nvidia-nccl-cu12 2>/dev/null || true

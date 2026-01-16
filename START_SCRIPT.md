@@ -1,0 +1,1 @@
+start --script hyperliquid_monster_bot_v2.py

@@ -39,13 +39,14 @@ Status: ✅ ALL SAFE - Liquidation risks eliminated
 | IP-USD | 30.7% | 50.0% | +19.3% | SAFE (moved from 3x) |
 | HYPER-USD | 33.4% | 50.0% | +16.6% | SAFE |
 | kBONK-USD | 39.3% | 50.0% | +10.7% | SAFE |
-| VVV-USD | 40.5% | 50.0% | +9.5% | SAFE |
+| VVV-USD | 40.5% | 50.0% | +9.5% | REMOVED - buffer too tight |
 
 ### REMOVED (unsafe at any leverage)
 | Coin | Max Move | Reason |
 |------|----------|--------|
 | ANIME-USD | 51.9% | Exceeds 50% threshold |
 | PURR-USD | 55.8% | Exceeds 50% threshold |
+| VVV-USD | 40.5% | Only 9.5% buffer - too tight (2026-01-12) |
 | MOG-USD | N/A | Not available on Hyperliquid |
 | JEFF-USD | N/A | Not available on Hyperliquid |
 

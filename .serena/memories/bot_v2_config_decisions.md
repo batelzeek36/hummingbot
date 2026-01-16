@@ -1,4 +1,4 @@
-# Hyperliquid Monster Bot v2.4 - Configuration Decisions
+# Hyperliquid Monster Bot v2.5 - Configuration Decisions
 
 Last Updated: 2026-01-12
 Status: ✅ Live and trading - all issues fixed
@@ -97,7 +97,18 @@ Trade-off: ~2% monthly reduction for zero liquidation risk.
 
 ## Files
 
-- Bot: `scripts/hyperliquid_monster_bot_v2.py` (also copied to scripts/strategies/)
+### Main Bot (Modular v2.5)
+- **Orchestrator**: `scripts/hyperliquid_monster_bot_v2.py` (497 lines)
+- **Package**: `scripts/hyperliquid_monster/`
+  - `config.py` - Configuration dataclass
+  - `models.py` - Data models (FundingOpportunity, StrategyMetrics, etc.)
+  - `pause_manager.py` - Unified pause/resume system
+  - `status_formatter.py` - Status display formatting
+  - `logging_utils.py` - Startup banner
+  - `strategies/` - FundingHunterStrategy, GridStrategy, MomentumStrategy
+  - `whale_protection/` - CircuitBreaker, GridProtection, TrailingStop, DynamicRisk, EarlyWarning, Orchestrator
+
+### Supporting Files
 - Analysis: `prompts/LIQUIDATION_SAFETY_ANALYSIS.md`
 - Analytics: `scripts/analytics/quick_strategy_check.py`
 - Credentials: `.env` (gitignored)

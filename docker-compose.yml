@@ -1,10 +1,10 @@
 services:
   hummingbot:
     container_name: hummingbot
-    image: hummingbot/hummingbot:latest
-    # build: # Uncomment this build section and comment image to build Hummingbot locally
-    #   context: .
-    #   dockerfile: Dockerfile
+    # image: hummingbot/hummingbot:latest  # Using custom build instead
+    build:
+      context: .
+      dockerfile: Dockerfile.monster
     volumes:
       - ./conf:/home/hummingbot/conf
       - ./conf/connectors:/home/hummingbot/conf/connectors
@@ -16,6 +16,13 @@ services:
       - ./certs:/home/hummingbot/certs
       - ./scripts:/home/hummingbot/scripts
       - ./controllers:/home/hummingbot/controllers
+      # Monster Bot mounts
+      - /Users/kingkamehameha/Documents/the-monster-bot:/home/hummingbot/the-monster-bot
+      # Direct mount of monster bot script and module into scripts dir
+      - /Users/kingkamehameha/Documents/the-monster-bot/hyperliquid_monster_bot_v2.py:/home/hummingbot/scripts/hyperliquid_monster_bot_v2.py
+      - /Users/kingkamehameha/Documents/the-monster-bot/hyperliquid_monster:/home/hummingbot/scripts/hyperliquid_monster
+    env_file:
+      - /Users/kingkamehameha/Documents/the-monster-bot/.env
     logging:
       driver: "json-file"
       options:
