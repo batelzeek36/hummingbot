@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-01-16T03:41:24.009688",
-  "session_start": "2026-01-16T03:30:44.790744",
-  "runtime_hours": 0.17756081944444443,
+  "generated_at": "2026-01-17T02:05:07.152372",
+  "session_start": "2026-01-17T00:27:43.459720",
+  "runtime_hours": 1.6232479608333334,
   "summary": {
-    "total_funding_received": -0.206916,
-    "total_payments": 6,
+    "total_funding_received": -0.258373,
+    "total_payments": 10,
     "coins_tracked": 2,
-    "global_pnl": -0.205317
+    "global_pnl": -0.102422
   },
   "coins": {
     "AVNT-USD": {
-      "total_funding_received": -0.086094,
-      "funding_payments_count": 3,
+      "total_funding_received": -0.108549,
+      "funding_payments_count": 5,
       "total_positions_opened": 0,
       "total_position_time_minutes": 0.0,
       "avg_apr_captured": 0.0,
       "best_single_payment": 0.0,
       "worst_single_payment": -0.042394,
-      "last_payment_time": "2026-01-16T02:02:00.625631",
+      "last_payment_time": "2026-01-17T01:00:00.498377",
       "leverage_used": 2,
       "volatility_class": "extreme"
     },
     "IP-USD": {
-      "total_funding_received": -0.120822,
-      "funding_payments_count": 3,
+      "total_funding_received": -0.149824,
+      "funding_payments_count": 5,
       "total_positions_opened": 0,
       "total_position_time_minutes": 0.0,
       "avg_apr_captured": 0.0,
       "best_single_payment": 0.0,
       "worst_single_payment": -0.084954,
-      "last_payment_time": "2026-01-16T02:02:00.501787",
+      "last_payment_time": "2026-01-17T01:00:00.489242",
       "leverage_used": 2,
       "volatility_class": "extreme"
     }

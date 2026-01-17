@@ -1,8 +1,8 @@
 # Coin Performance Report
 
-**Generated:** 2026-01-16 03:41:24
-**Session Start:** 2026-01-16 03:30:44
-**Runtime:** 0.2 hours
+**Generated:** 2026-01-17 02:05:07
+**Session Start:** 2026-01-17 00:27:43
+**Runtime:** 1.6 hours
 
 ---
 
@@ -10,10 +10,10 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Funding Received | **$-0.2069** |
-| Total Payments | 6 |
+| Total Funding Received | **$-0.2584** |
+| Total Payments | 10 |
 | Coins Tracked | 2 |
-| Global P&L | $-0.2053 |
+| Global P&L | $-0.1024 |
 
 ---
 
@@ -21,8 +21,8 @@
 
 | Rank | Coin | Funding Received | Payments | Avg APR | Leverage |
 |------|------|------------------|----------|---------|----------|
-| 1 | AVNT-USD | $-0.0861 | 3 | 0% | 2x |
-| 2 | IP-USD | $-0.1208 | 3 | 0% | 2x |
+| 1 | AVNT-USD | $-0.1085 | 5 | 0% | 2x |
+| 2 | IP-USD | $-0.1498 | 5 | 0% | 2x |
 
 ---
 
@@ -32,27 +32,27 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Funding | $-0.086094 |
-| Payment Count | 3 |
+| Total Funding | $-0.108549 |
+| Payment Count | 5 |
 | Avg APR Captured | 0.0% |
 | Best Single Payment | $0.000000 |
 | Worst Single Payment | $-0.042394 |
 | Leverage Used | 2x |
 | Volatility Class | extreme |
-| Last Payment | 2026-01-16T02:02:00.625631 |
+| Last Payment | 2026-01-17T01:00:00.498377 |
 
 ### IP-USD
 
 | Metric | Value |
 |--------|-------|
-| Total Funding | $-0.120822 |
-| Payment Count | 3 |
+| Total Funding | $-0.149824 |
+| Payment Count | 5 |
 | Avg APR Captured | 0.0% |
 | Best Single Payment | $0.000000 |
 | Worst Single Payment | $-0.084954 |
 | Leverage Used | 2x |
 | Volatility Class | extreme |
-| Last Payment | 2026-01-16T02:02:00.501787 |
+| Last Payment | 2026-01-17T01:00:00.489242 |
 
 ---
 
